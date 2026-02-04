@@ -1,5 +1,4 @@
-# Intrusion Detection and Prevention System (IDPS)
-#### Author: [Hamza Khalid](https://github.com/hmzakhalid) 
+# System Monitoring and Anamoly Detection
 
 This project is a basic Intrusion Detection and Prevention System (IDPS) designed to monitor various activities on a host system, detect suspicious behavior, and alert the user to possible threats. The IDPS includes file system, network, and process monitoring, as well as anomaly detection features.
 
@@ -9,14 +8,7 @@ This project is a basic Intrusion Detection and Prevention System (IDPS) designe
 2. Monitor network connections.
 3. Monitor system processes.
 4. Anomaly detection based on the number of events in a short period and machine learning techniques (Isolation Forest algorithm).
-
-## Installation
-
-1. Clone the repository:
-`git clone https://github.com/hmzakhalid/Intrusion-Detection-Prevention-System`
-2. Install the required Python packages:
-`pip install -r requirements.txt`
-
+   
 ## Usage
 
 1. Edit the `idps.py` script and set the `path` variable to the directories you want to monitor.
